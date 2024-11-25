@@ -1,0 +1,113 @@
+group = "co.perish.nanopow"
+version = "1.0-SNAPSHOT"
+
+buildscript {
+    ext.kotlin_version = "1.7.10"
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath("com.android.tools.build:gradle:7.3.0")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version")
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+apply plugin: "com.android.library"
+apply plugin: "kotlin-android"
+
+android {
+    if (project.android.hasProperty("namespace")) {
+        namespace = "co.perish.nanopow"
+    }
+
+    compileSdk = 34
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8
+    }
+
+    sourceSets {
+        main.java.srcDirs += "src/main/kotlin"
+        test.java.srcDirs += "src/test/kotlin"
+        // main {
+        //     jniLibs.srcDirs = ['src/main/jniLibs']
+        // }
+    }
+
+    defaultConfig {
+        minSdk = 21
+    }
+
+    dependencies {
+        testImplementation("org.jetbrains.kotlin:kotlin-test")
+        testImplementation("org.mockito:mockito-core:5.0.0")
+    }
+
+    testOptions {
+        unitTests.all {
+            useJUnitPlatform()
+
+            testLogging {
+               events "passed", "skipped", "failed", "standardOut", "standardError"
+               outputs.upToDateWhen {false}
+               showStandardStreams = true
+            }
+        }
+    }
+
+    externalNativeBuild {
+        // Encapsulates your CMake build configurations.
+        cmake {
+            // Provides a relative path to your CMake build script.
+            path "CMakeLists.txt"
+        }
+    }
+
+    // buildTypes {
+    //     release {
+    //         packagingOptions {
+    //             pickFirst 'lib/arm64-v8a/libpow_lib.so'
+    //             pickFirst 'lib/armeabi-v7a/libpow_lib.so'
+    //             pickFirst 'lib/x86_64/libpow_lib.so'
+    //         }
+    //     }
+    //     debug {
+    //         packagingOptions {
+    //             pickFirst 'lib/arm64-v8a/libpow_lib.so'
+    //             pickFirst 'lib/armeabi-v7a/libpow_lib.so'
+    //             pickFirst 'lib/x86_64/libpow_lib.so'
+    //         }
+    //     }
+    // }
+
+    buildTypes {
+        release {
+            jniDebuggable false
+        }
+        debug {
+            jniDebuggable true
+        }
+    }
+    
+    // Add this block to handle the duplicate files
+    packagingOptions {
+        jniLibs {
+            useLegacyPackaging = true
+            pickFirsts += ['**/libpow_lib.so']
+        }
+    }
+}

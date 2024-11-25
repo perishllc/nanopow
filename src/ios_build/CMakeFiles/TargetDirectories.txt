@@ -1,0 +1,3 @@
+/Users/fosse/dev/nanopow/ios/Classes/ios_build/CMakeFiles/pow_lib.dir
+/Users/fosse/dev/nanopow/ios/Classes/ios_build/CMakeFiles/ALL_BUILD.dir
+/Users/fosse/dev/nanopow/ios/Classes/ios_build/CMakeFiles/ZERO_CHECK.dir

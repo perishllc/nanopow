@@ -1,0 +1,3 @@
+target 'Runner' do
+  pod 'pow_lib', :path => 'Frameworks/pow_lib.framework'
+end

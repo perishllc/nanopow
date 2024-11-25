@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		AAF92FC28D9B44D4B8E2D315 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EC5D938E71D34DBEA9205437 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				E1CFF4AAE5C13580651DDDA2 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				938E676DF0EF448990300E6F /* PBXTargetDependency */,
+				3FFF80EBD2144F94B41639D1 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		DED540CC15624D499C650914 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 63D210C1150541C5BAE5276A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				3F95769E5885C5603EF20B0F /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		159AC417F5414D82B940564D /* /Users/fosse/dev/nanopow/ios/Classes/pow_lib.cpp */ = {isa = PBXBuildFile; fileRef = D2AC978306A9470BA84E3CC4 /* /Users/fosse/dev/nanopow/ios/Classes/pow_lib.cpp */; };
+		9A70C3F7C8FD4F76AD45811C /* /Users/fosse/dev/nanopow/ios/Classes/ios_build/CMakeFiles/pow_lib.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = C5FA0A3A7AF245319E9B3E57 /* /Users/fosse/dev/nanopow/ios/Classes/ios_build/CMakeFiles/pow_lib.dir/Info.plist */; };
+		AAAD2E1942CF4F719F01A7B6 /* /Users/fosse/dev/nanopow/ios/Classes/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 8BBF89CBE3714FDA81AA4BB1 /* /Users/fosse/dev/nanopow/ios/Classes/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0A9CDFEA06DA4753A9A97E13 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		6F718E4DA27B4C969803BDCD /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		9B09B2299B874DC3970A000A /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		B322C7D981E548BB8EE599C3 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0A8AD4AE26194D99AE7E4E50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6EDF6BD8E824D8099E2704B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2BC06424D2147C7AE589589;
+			remoteInfo = pow_lib;
+		};
+		10EE3BD95A1E4A699F63D125 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6EDF6BD8E824D8099E2704B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DED540CC15624D499C650914;
+			remoteInfo = ZERO_CHECK;
+		};
+		3DC2D97FD2084BE2BFDFECD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6EDF6BD8E824D8099E2704B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DED540CC15624D499C650914;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34BD5DEC281A4C3484EF4CE6 /* /Users/fosse/dev/nanopow/ios/Classes/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6AA575E9763C4630B178E1CC /* pow_lib */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = pow_lib.framework/pow_lib; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BBF89CBE3714FDA81AA4BB1 /* /Users/fosse/dev/nanopow/ios/Classes/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C5FA0A3A7AF245319E9B3E57 /* /Users/fosse/dev/nanopow/ios/Classes/ios_build/CMakeFiles/pow_lib.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = ios_build/CMakeFiles/pow_lib.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		D2AC978306A9470BA84E3CC4 /* /Users/fosse/dev/nanopow/ios/Classes/pow_lib.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pow_lib.cpp; path = pow_lib.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E2A2054B7594F79AABDD042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B1364256AD145C7B32A6E84 /* pow_lib */ = {
+			isa = PBXGroup;
+			children = (
+				5AFAB92602D441FC8A1C3BE6 /* Source Files */,
+				A8152CE6C2EA483DB5C9B89B /* Resources */,
+				8BBF89CBE3714FDA81AA4BB1 /* /Users/fosse/dev/nanopow/ios/Classes/CMakeLists.txt */,
+			);
+			name = pow_lib;
+			sourceTree = "<group>";
+		};
+		5AFAB92602D441FC8A1C3BE6 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2AC978306A9470BA84E3CC4 /* /Users/fosse/dev/nanopow/ios/Classes/pow_lib.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		6FB3CCD6920344F38D9AA4D1 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		791B468ADC204B1DBBCB973C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8152CE6C2EA483DB5C9B89B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C5FA0A3A7AF245319E9B3E57 /* /Users/fosse/dev/nanopow/ios/Classes/ios_build/CMakeFiles/pow_lib.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C20B90F4F45A4FE4B5E49BF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AA575E9763C4630B178E1CC /* pow_lib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2D625107C464CD0BA79111D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C41395C6496C4D66A2C2BA76 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				6FB3CCD6920344F38D9AA4D1 /* CMake Rules */,
+				34BD5DEC281A4C3484EF4CE6 /* /Users/fosse/dev/nanopow/ios/Classes/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		ED1DC1E4401A4E77A745390D = {
+			isa = PBXGroup;
+			children = (
+				0B1364256AD145C7B32A6E84 /* pow_lib */,
+				C41395C6496C4D66A2C2BA76 /* ALL_BUILD */,
+				C20B90F4F45A4FE4B5E49BF5 /* Products */,
+				791B468ADC204B1DBBCB973C /* Frameworks */,
+				C2D625107C464CD0BA79111D /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2BC06424D2147C7AE589589 /* pow_lib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2809A524E7A049B9BA5A2EBD /* Build configuration list for PBXNativeTarget "pow_lib" */;
+			buildPhases = (
+				9F1CA4D8D62A4E7096CE89DE /* Sources */,
+				8E2A2054B7594F79AABDD042 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				456512C6C164441F9A807B9D /* PBXTargetDependency */,
+			);
+			name = pow_lib;
+			productName = pow_lib;
+			productReference = 6AA575E9763C4630B178E1CC /* pow_lib */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6EDF6BD8E824D8099E2704B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1610;
+			};
+			buildConfigurationList = 6BFC07EFE36A4D9896B1E5DF /* Build configuration list for PBXProject "pow_lib" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				6F718E4DA27B4C969803BDCD /* Debug */,
+				0A9CDFEA06DA4753A9A97E13 /* Release */,
+				B322C7D981E548BB8EE599C3 /* MinSizeRel */,
+				9B09B2299B874DC3970A000A /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = ED1DC1E4401A4E77A745390D;
+			projectDirPath = /Users/fosse/dev/nanopow/ios/Classes;
+			projectRoot = "";
+			targets = (
+				AAF92FC28D9B44D4B8E2D315 /* ALL_BUILD */,
+				DED540CC15624D499C650914 /* ZERO_CHECK */,
+				E2BC06424D2147C7AE589589 /* pow_lib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3F95769E5885C5603EF20B0F /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/fosse/dev/nanopow/ios/Classes/ios_build/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/fosse/dev/nanopow/ios/Classes/ios_build
+  make -f /Users/fosse/dev/nanopow/ios/Classes/ios_build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/fosse/dev/nanopow/ios/Classes/ios_build
+  make -f /Users/fosse/dev/nanopow/ios/Classes/ios_build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/fosse/dev/nanopow/ios/Classes/ios_build
+  make -f /Users/fosse/dev/nanopow/ios/Classes/ios_build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/fosse/dev/nanopow/ios/Classes/ios_build
+  make -f /Users/fosse/dev/nanopow/ios/Classes/ios_build/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		E1CFF4AAE5C13580651DDDA2 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/fosse/dev/nanopow/ios/Classes/ios_build/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/fosse/dev/nanopow/ios/Classes/ios_build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/fosse/dev/nanopow/ios/Classes/ios_build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/fosse/dev/nanopow/ios/Classes/ios_build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/fosse/dev/nanopow/ios/Classes/ios_build
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F1CA4D8D62A4E7096CE89DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				159AC417F5414D82B940564D /* /Users/fosse/dev/nanopow/ios/Classes/pow_lib.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FFF80EBD2144F94B41639D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2BC06424D2147C7AE589589 /* pow_lib */;
+			targetProxy = 0A8AD4AE26194D99AE7E4E50 /* PBXContainerItemProxy */;
+		};
+		456512C6C164441F9A807B9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DED540CC15624D499C650914 /* ZERO_CHECK */;
+			targetProxy = 3DC2D97FD2084BE2BFDFECD9 /* PBXContainerItemProxy */;
+		};
+		938E676DF0EF448990300E6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DED540CC15624D499C650914 /* ZERO_CHECK */;
+			targetProxy = 10EE3BD95A1E4A699F63D125 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		086437C094854BC79DBDB588 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/fosse/dev/nanopow/ios/Classes/ios_build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		0934F81149FE434CBA1948AE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/fosse/dev/nanopow/ios/Classes/ios_build/build;
+			};
+			name = MinSizeRel;
+		};
+		259ABDD7E514491492FE6849 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		301F5594EA694834B22CC594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		36314AA5456C42A3A7713116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fosse/dev/nanopow/ios/Classes/ios_build/Release${EFFECTIVE_PLATFORM_NAME}";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",pow_lib_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fosse/dev/nanopow/ios/Classes,/Users/fosse/dev/nanopow/ios/Classes/vendor,"$(inherited)");
+				INFOPLIST_FILE = /Users/fosse/dev/nanopow/ios/Classes/ios_build/CMakeFiles/pow_lib.dir/Info.plist;
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' -fPIC '-fpack-struct=16' ";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pow_lib;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/fosse/dev/nanopow/ios/Classes/ios_build/build/pow_lib.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		55C1EA26B58F479F971BC5EE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fosse/dev/nanopow/ios/Classes/ios_build/MinSizeRel${EFFECTIVE_PLATFORM_NAME}";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",pow_lib_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fosse/dev/nanopow/ios/Classes,/Users/fosse/dev/nanopow/ios/Classes/vendor,"$(inherited)");
+				INFOPLIST_FILE = /Users/fosse/dev/nanopow/ios/Classes/ios_build/CMakeFiles/pow_lib.dir/Info.plist;
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' -fPIC '-fpack-struct=16' ";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pow_lib;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/fosse/dev/nanopow/ios/Classes/ios_build/build/pow_lib.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		66B82D41B8034613A9813279 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fosse/dev/nanopow/ios/Classes/ios_build/RelWithDebInfo${EFFECTIVE_PLATFORM_NAME}";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",pow_lib_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fosse/dev/nanopow/ios/Classes,/Users/fosse/dev/nanopow/ios/Classes/vendor,"$(inherited)");
+				INFOPLIST_FILE = /Users/fosse/dev/nanopow/ios/Classes/ios_build/CMakeFiles/pow_lib.dir/Info.plist;
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++17' -fPIC '-fpack-struct=16' ";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pow_lib;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/fosse/dev/nanopow/ios/Classes/ios_build/build/pow_lib.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		70767C8BE630455ABE16EAA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/fosse/dev/nanopow/ios/Classes/ios_build/build;
+			};
+			name = Debug;
+		};
+		73FEEF4D09CA410BA98717FA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		94A4CE0BCC7F4103BDC8581E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fosse/dev/nanopow/ios/Classes/ios_build/Debug${EFFECTIVE_PLATFORM_NAME}";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",pow_lib_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fosse/dev/nanopow/ios/Classes,/Users/fosse/dev/nanopow/ios/Classes/vendor,"$(inherited)");
+				INFOPLIST_FILE = /Users/fosse/dev/nanopow/ios/Classes/ios_build/CMakeFiles/pow_lib.dir/Info.plist;
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' -fPIC '-fpack-struct=16' ";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pow_lib;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/fosse/dev/nanopow/ios/Classes/ios_build/build/pow_lib.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		9B52F7370F5647689B916819 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C571536994954059A146E1CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C9E94BC79B4840C69F8415CD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CB1B57244A294346A4E88C75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D76CA2C077864A979D73A432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		EA6104E0AFEC490D81A17EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/fosse/dev/nanopow/ios/Classes/ios_build/build;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2809A524E7A049B9BA5A2EBD /* Build configuration list for PBXNativeTarget "pow_lib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94A4CE0BCC7F4103BDC8581E /* Debug */,
+				36314AA5456C42A3A7713116 /* Release */,
+				55C1EA26B58F479F971BC5EE /* MinSizeRel */,
+				66B82D41B8034613A9813279 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		63D210C1150541C5BAE5276A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C571536994954059A146E1CD /* Debug */,
+				CB1B57244A294346A4E88C75 /* Release */,
+				9B52F7370F5647689B916819 /* MinSizeRel */,
+				259ABDD7E514491492FE6849 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6BFC07EFE36A4D9896B1E5DF /* Build configuration list for PBXProject "pow_lib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70767C8BE630455ABE16EAA8 /* Debug */,
+				EA6104E0AFEC490D81A17EFD /* Release */,
+				0934F81149FE434CBA1948AE /* MinSizeRel */,
+				086437C094854BC79DBDB588 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EC5D938E71D34DBEA9205437 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D76CA2C077864A979D73A432 /* Debug */,
+				301F5594EA694834B22CC594 /* Release */,
+				C9E94BC79B4840C69F8415CD /* MinSizeRel */,
+				73FEEF4D09CA410BA98717FA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6EDF6BD8E824D8099E2704B /* Project object */;
+}
